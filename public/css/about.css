@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.both_prof{
+    display: flex;
+    padding-top: 52px;
+}
+#fir{
+    background-image: url(/img/contact-rev.jpeg);
+    width: 40vw;
+    height: 40vh;
+    border-radius: 40%;
+    background-repeat: no-repeat;
+}
+#sec{
+    background-image: url(/img/contact.jpg);
+    width: 40vw;
+    height: 40vh;
+    border-radius: 40%;
+    background-repeat: no-repeat;
+}
+#thir{
+    background-image: url(/img/contact-rev.jpeg);
+    width: 40vw;
+    height: 40vh;
+    border-radius: 40%;
+    background-repeat: no-repeat;
+}
+.fir{
+    width: 80vw;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(20, 159, 159, 0.69);
+    font-size: larger;
+    font-family: cursive;
+}
+
+.mainmap{
+    display: flex; 
+}
+.AKPK {
+    width: 20vw;
+    height: 35vh;
+    border-radius: 100%;
+    padding-right: 10px;
+}
+.mapouter{
+    padding-right: 25px;
+}
+.developer{
+    display: flex;
+    /* flex-direction: column; */
+    text-align:center;
+    justify-content: center;
+    font-family: cursive;
+    /* color: rgb(14, 189, 208); */
+}
+.developer span{
+   /* background-color: rgb(77, 123, 128) ;  */
+   font-weight: 900;
+   padding: 5px 5px 2px 4px;
+}
+.devphead h3{
+    justify-content: center;
+    text-align: center;
+}
+.det {
+    display: flex;
+    flex-direction: column;
+}
+.abhidet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.dev{
+    font-size:x-large;
+    color: rgb(34, 202, 202);
+    font-family: 'Lilita One', cursive;
+}

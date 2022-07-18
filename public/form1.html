@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/form.css">
+  <style>
+    body {
+      background-image: url(/img/form1d.webp);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+  </style>
+  <title>Dentist</title>
+</head>
+
+<body>
+  <form action="/sign_up" method="post">
+
+    <div class="container" style="background-color: white;">
+      <input type="text" name="pname" placeholder="Enter Patient Name" id="" required>
+      <input type="number" name="phone" placeholder="Enter Patient contact number" id="" required>
+      <input type="text" name="psymptom" placeholder="Enter Patient symptom" id="">
+      <input type="date" name="date" placeholder="Select the date for Appointment" id="" required>
+      <input type="time" name="time" placeholder="Select time for the Appointment" id="" required>
+      <select name="dr" id="dr" required>
+        <option value="volvo">Select the Doctor</option>
+        <option value="DR1">DR1</option>
+        <option value="DR2">DR2</option>
+        <option value="DR3">DR3</option>
+        <option value="DR4">DR4</option>
+      </select>
+      <input type="submit" id="submitDetails" name="submitDetails" value="Submit" /><br>
+
+    </div>
+  </form>
+
+
+
+</body>
+
+</html>

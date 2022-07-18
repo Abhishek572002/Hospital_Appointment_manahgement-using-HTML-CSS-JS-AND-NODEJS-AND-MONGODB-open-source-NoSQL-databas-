@@ -1,0 +1,72 @@
+.contact{
+    display: flex;
+}
+.con2{
+    background-image: url("/img/contact.jpg");
+    width: 25vw;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding-top: 280px;
+    margin-top: 150px;
+}
+.con1{
+    width: 75vw;
+    font-family: cursive;
+
+}
+.con1 h1{
+    color: #237d9e;
+    text-align: center;
+}
+.con1  span .first{
+   text-align: center;
+   justify-content: flex-end;
+}
+.con_form h3{
+    text-align: center;
+    color: #237d9e;
+}
+
+
+.con_form .query{
+    justify-content: center;
+    text-align: center;
+    margin-top: 23px;
+    background: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.con_det{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 550px;
+    height: 300px;
+    padding-top: 34px;
+    /* border-style: dashed; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.con_det input{
+    margin-top: 12px;
+    padding-top: 12px;
+    border-color: #11a3d8;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+ #btn{
+    cursor: pointer;
+    background-color: #237d9e;
+    font-size: large;
+    font-family:cursive;
+    font-weight: bold;
+    width: 140px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    color: #237d9e;
+    background-color: #f2f2f2;
+}
+
+
